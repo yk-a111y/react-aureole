@@ -28,6 +28,7 @@ module.exports = {
   },
   plugins: ['@typescript-eslint', 'react'],
   rules: {
-    '@typescript-eslint/no-var-requires': 'off' // 防止require()语法报错
+    '@typescript-eslint/no-var-requires': 'off', // 防止require()语法报错
+    '@typescript-eslint/no-expilcit-any': 'off' // 允许any
   }
 }
